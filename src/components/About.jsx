@@ -8,10 +8,10 @@ import img3 from '../assets/git.png';
 
 export function About() {
     return (
-        <div className='bg-slate-900 mx-20 text-white '>
+        <div className='bg-slate-900 max-w-screen   lg:mx-20 text-white '>
 
 
-            <div className='flex pt-20  justify-between items-center'>
+            <div className='lg:flex lg:flex-row  flex flex-col px-10 pt-20  justify-between items-center'>
                 <div className=' flex flex-col items-center '>
                     <TypeAnimation
                         sequence={[

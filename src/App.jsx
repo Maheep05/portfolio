@@ -9,7 +9,7 @@ import { Projects } from "./components/Projects"
 function App() {
 
   return (
-    <div className="bg-slate-900">
+    <div className="bg-slate-900 min-w-full ">
       <Navbar />
       <About />
       <Projects/>
