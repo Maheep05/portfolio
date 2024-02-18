@@ -36,7 +36,7 @@ export function Navbar() {
     };
 
     return (
-        <div className={`z-10 flex max-w-full  items-center justify-between bg-black text-white p-2 transition-all duration-500 ${scrollNav ? 'transform translate-y-4 top-0 left-0 right-0 mx-[180px] lg:mx-[200px] fixed  rounded-full' : ''}`}>
+        <div className={`z-10 flex max-w-screen   items-center justify-between bg-black text-white p-2 transition-all duration-500 ${scrollNav ? 'transform translate-y-4 top-0 left-0 right-0 w-auto  mx-[60px]  md:mx-[180px] lg:mx-[200px] fixed  rounded-full' : ''}`}>
             <div className='mx-6 lg:mx-10'>
                 <img src={img} alt="" className='h-16 w-16 rounded-full ' />
             </div>
@@ -56,7 +56,7 @@ export function Navbar() {
 
             {/* Display dropdown menu for small screens */}
             {displayMenu && (
-                <div className={`absolute flex flex-col justify-center items-center top-20 left-0 w-full  bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px]   w-72' : ''}`}>
+                <div className={`absolute overflow-auto z-10 flex flex-col justify-center items-center top-20 left-0 w-screen sm:left-0 sm:w-full   bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px] left-6 w-40 md:left-12    md:w-96' : ''}`}>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('about')}>About</span>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('projects')}>Projects</span>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('internships')}>Internships</span>
