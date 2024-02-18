@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer"
 import { Internships } from "./components/Internships"
 import { Navbar } from "./components/Navbar"
 import { Projects } from "./components/Projects"
+import {Techstack} from "./components/Techstack"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects/>
       <Internships/>
+      <Techstack/>
       <Contact/>
       <Footer/>
     </div>
