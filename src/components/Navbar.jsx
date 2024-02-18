@@ -56,7 +56,7 @@ export function Navbar() {
 
             {/* Display dropdown menu for small screens */}
             {displayMenu && (
-                <div className={`absolute  z-10 flex flex-col justify-center items-center top-20 left-0 w-screen sm:left-0 sm:w-full   bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px] left-6 w-[260px] sm:min-w-auto  md:left-12   md:w-96' : ''}`}>
+                <div className={`absolute  z-10 flex flex-col justify-center items-center top-20 left-0 w-screen sm:left-0 sm:w-full   bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px] left-6 w-[170px] sm:min-w-auto  md:left-12   md:w-96' : ''}`}>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('about')}>About</span>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('projects')}>Projects</span>
                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('internships')}>Internships</span>
