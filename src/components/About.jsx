@@ -32,7 +32,7 @@ export function About() {
                         repeat={Infinity}
                     />
                     <AboutCard />
-                    <div className='flex gap-10 mt-10 justify-start'>
+                    <div className='flex gap-3 sm:gap-10 mt-10 justify-start'>
                         <a href="https://drive.google.com/file/d/1J-Ia8OYCJP6SvSlAsS-A1CRs13v5yc9v/view?usp=drive_link"> <button className='border-orange-300 border-2 px-4 py-2 rounded-2xl bg-yellow-900 text-orange-300 hover:text-white'>Resume</button></a>
 
 
