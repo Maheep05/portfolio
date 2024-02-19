@@ -62,7 +62,7 @@ export function Navbar() {
 
                             <div className='flex items-center absolute top-0 -left-20  justify-center'>
 
-                                <div className={`absolute   z-10 flex flex-col justify-center items-center top-20 left-20  sm:left-0 sm:w-full w-screen   bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px]  sm:w-[340px] left-[92px] sm:left-[180px]  w-[170px]   md:left-24 md:w-96' : ''}`}>
+                                <div className={`absolute   z-10 flex flex-col justify-center items-center top-20 left-20  sm:left-0  w-screen   bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px]  sm:w-[340px] left-[92px] sm:left-[180px]  w-[180px]   md:left-24 md:w-96' : ''}`}>
                                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('about')}>About</span>
                                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('projects')}>Projects</span>
                                     <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('internships')}>Internships</span>

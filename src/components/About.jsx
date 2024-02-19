@@ -42,7 +42,7 @@ export function About() {
                     </div>
 
                 </div>
-                <div className='mx-40 my-10'>
+                <div className='sm:mx-40 mx-10 my-10 sm:my-10'>
                     <img src={img} alt="aboutPic" />
                 </div>
 
