@@ -2,7 +2,7 @@
 export function ProjectCard({ title, description, img ,link}) {
     return (
         <div>
-            <div className='mx-10 relative  cursor-pointer'>
+            <div className='mx-1 sm:mx-10 relative  cursor-pointer'>
 
                 <div className="group relative hover:bg-black  hover:opacity-50">
                     <img src={img} alt="" className='rounded-t-xl w-[500px] h-60 ' />

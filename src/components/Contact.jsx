@@ -32,7 +32,7 @@ export function Contact() {
     }
 
     return (
-        <div className='py-40 minw-screen flex flex-col lg:min-w-full  mx-4 lg:mx-0  bg-slate-900'>
+        <div className='py-40 min-w-screen flex flex-col lg:min-w-full  mx-4 lg:mx-0  bg-slate-900'>
             <div>
                 <h1 className='pb-20 bg-slate-900 text-white flex justify-center text-4xl font-semibold '>Let's Connect</h1>
             </div>

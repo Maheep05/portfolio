@@ -7,9 +7,9 @@ export function Internships() {
             <div>
                 <h1 className='bg-slate-900 text-white flex justify-center text-3xl font-semibold mt-48'>Internships</h1>
             </div>
-            <div className='flex flex-wrap items-center justify-center gap-y-40 mx-10'>
+            <div className='flex flex-wrap items-center justify-center gap-y-40 mx-2 sm:mx-10'>
 
-                <div className='mx-10 my-20 relative'>
+                <div className=' sm:mx-10 my-20 relative'>
                     <img src={intern} alt="" className='rounded-t-xl w-[560px] h-96' />
                     <div className='absolute bg-black bottom-[-130px] text-white rounded-b-xl p-4 max-w-[560px] overflow-hidden '>
                         <p className="font-bold text-xl text-white">Upedian.</p>
