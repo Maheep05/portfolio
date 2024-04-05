@@ -4,7 +4,7 @@ export function Internships() {
     return (
         <div>
 
-            <div>
+            <div id='internships'>
                 <h1 className='bg-slate-900 text-white flex justify-center text-3xl font-semibold mt-48'>Internships</h1>
             </div>
             <div className='flex flex-wrap items-center justify-center gap-y-40 mx-2 sm:mx-10'>

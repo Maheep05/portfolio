@@ -8,7 +8,7 @@ import img3 from '../assets/git.png';
 
 export function About() {
     return (
-        <div className='bg-slate-900 max-w-screen   lg:mx-20 text-white '>
+        <div className='bg-slate-900 max-w-screen   lg:mx-20 text-white ' id='about'>
 
 
             <div className='lg:flex lg:flex-row  flex flex-col px-10 pt-20  justify-between items-center'>
@@ -33,7 +33,7 @@ export function About() {
                     />
                     <AboutCard />
                     <div className='flex gap-3 sm:gap-10 mt-10 justify-start'>
-                        <a href="https://drive.google.com/file/d/1J-Ia8OYCJP6SvSlAsS-A1CRs13v5yc9v/view?usp=drive_link"> <button className='border-orange-300 border-2 px-4 py-2 rounded-2xl bg-yellow-900 text-orange-300 hover:text-white'>Resume</button></a>
+                        <a href="https://drive.google.com/file/d/1Q47BYVgfAnkiWRvumkHG6MxmQzL2Eutp/view?usp=sharing"> <button className='border-orange-300 border-2 px-4 py-2 rounded-2xl bg-yellow-900 text-orange-300 hover:text-white'>Resume</button></a>
 
 
                         <a href="https://www.linkedin.com/in/maheep-saluja/" target='_blank'><img src={img1} alt="" className='h-10 w-10' /></a>

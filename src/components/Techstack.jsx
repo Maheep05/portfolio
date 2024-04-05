@@ -1,6 +1,6 @@
 export function Techstack(){
     return (
-        <div className="bg-gray-900 text-white mt-40 py-12">
+        <div className="bg-gray-900 text-white mt-40 py-12" id="tech">
             <h1 className="text-3xl font-semibold text-center mb-10">My Tech Stack</h1>
             <div className="flex justify-center gap-10 flex-wrap max-w-screen items-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="" className='h-20 w-20'/>
