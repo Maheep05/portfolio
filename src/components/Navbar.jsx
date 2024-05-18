@@ -34,7 +34,7 @@ export function Navbar() {
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }
-    };
+    }
 
     return (
         <div className=''>
@@ -53,6 +53,7 @@ export function Navbar() {
                         <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('about')}>About</span>
                         <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('projects')}>Projects</span>
                         <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('internships')}>Internships</span>
+                        <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('achievements')}>Achievements</span>
                         <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('tech')}>Tech Stack</span>
                         <span className='cursor-pointer hover:bg-yellow-500 p-2 hover:text-black hover:border-1 hover:rounded-xl hover:p-2' onClick={() => scrollToSection('contact')}>Contact</span>
                     </div>
@@ -60,18 +61,18 @@ export function Navbar() {
                     {/* Display dropdown menu for small screens */}
                     {displayMenu && (
 
-                            <div className='flex items-center absolute top-0 -left-20   justify-center'>
+                        <div className='flex items-center absolute top-0 -left-20   justify-center'>
 
-                                <div className={`absolute   z-10 flex flex-col justify-center items-center top-20 left-20  sm:left-0    bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px]   left-[80px] sm:left-[180px]  w-[200px]   md:left-24 md:w-96' : 'w-screen'}`}>
-                                    <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('about')}>About</span>
-                                    <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('projects')}>Projects</span>
-                                    <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('internships')}>Internships</span>
-                                    <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('tech')}>Tech Stack</span>
-                                    <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('contact')}>Contact</span>
-                                </div>
-
+                            <div className={`absolute   z-10 flex flex-col justify-center items-center top-20 left-20  sm:left-0    bg-black text-white py-2 px-4 rounded-lg lg:hidden ${scrollNav ? 'top-[82px]   left-[80px] sm:left-[180px]  w-[200px]   md:left-24 md:w-96' : 'w-screen'}`}>
+                                <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('about')}>About</span>
+                                <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('projects')}>Projects</span>
+                                <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('internships')}>Internships</span>
+                                <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('tech')}>Tech Stack</span>
+                                <span className='cursor-pointer block py-2 hover:bg-yellow-500 hover:text-black hover:rounded-xl' onClick={() => scrollToSection('contact')}>Contact</span>
                             </div>
-                     
+
+                        </div>
+
 
 
                     )}

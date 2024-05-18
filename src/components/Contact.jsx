@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 // import emailjs from 'emailjs-com';
-import { toast, ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import cont from '../assets/cont.png';
 
@@ -34,7 +34,7 @@ export function Contact() {
     return (
         <div className='py-40 min-w-screen flex flex-col lg:min-w-full  mx-4 lg:mx-0  bg-slate-900'>
             <div>
-                <h1 className='pb-20 bg-slate-900 text-white flex justify-center text-4xl font-semibold '>Let's Connect</h1>
+                <h1 className='pb-20 bg-slate-900 text-white flex justify-center text-4xl font-semibold '>Let&apos;s Connect</h1>
             </div>
             <div className='p-2 flex justify-center items-center' id='contact'>
                 <div className="shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#f90,0_0_15px_#f90,0_0_30px_#f90] mx-auto relative text-white flex items-center justify-center  bg-neutral-800 rounded-lg p-8 ">
@@ -91,5 +91,5 @@ export function Contact() {
         </div>
 
     );
-};
+}
 

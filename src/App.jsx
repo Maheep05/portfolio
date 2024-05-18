@@ -1,4 +1,5 @@
 import { About } from "./components/About"
+import { Achievements } from "./components/Achievements"
 import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import { Internships } from "./components/Internships"
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects/>
       <Internships/>
+      <Achievements/>
       <Techstack/>
       <Contact/>
       <Footer/>
