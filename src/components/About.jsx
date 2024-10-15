@@ -28,14 +28,12 @@ export function About() {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style={{ fontSize: '3em', display: 'inline-block', color: 'orange', fontWeight: "bold", fontFamily: 'monospace', padding: '4', }}
+                        style={{ fontSize: '3em', display: 'inline-block', color: 'orange', fontWeight: "bold", fontFamily: 'monospace', padding: '4' }}
                         repeat={Infinity}
                     />
                     <AboutCard />
                     <div className='flex gap-3 sm:gap-10 mt-10 justify-start'>
-                        <a href="https://drive.google.com/file/d/1Q47BYVgfAnkiWRvumkHG6MxmQzL2Eutp/view?usp=sharing"> <button className='border-orange-300 border-2 px-4 py-2 rounded-2xl bg-yellow-900 text-orange-300 hover:text-white'>Resume</button></a>
-
-
+                        <a href="https://drive.google.com/file/d/1zREuikmTxVs4GrvwIwwibquqeJWz6s2b/view?usp=sharing"> <button className='border-orange-300 border-2 px-4 py-2 rounded-2xl bg-yellow-900 text-orange-300 hover:text-white'>Resume</button></a>
                         <a href="https://www.linkedin.com/in/maheep-saluja/" target='_blank'><img src={img1} alt="" className='h-10 w-10' /></a>
                         <a href="https://leetcode.com/maheep_saluja/" target='_blank'><img src={img2} alt="" className='h-10 w-10' /></a>
                         <a href="https://github.com/Maheep05" target='_blank'><img src={img3} alt="" className='h-10 w-10' /></a>
